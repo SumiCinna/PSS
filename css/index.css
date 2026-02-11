@@ -1,0 +1,15 @@
+.hero-section {
+    background: linear-gradient(135deg, rgba(30, 64, 175, 0.95), rgba(37, 99, 235, 0.85)), 
+                url('https://images.unsplash.com/photo-1534723452862-4c874018d66d?w=1600') center/cover;
+    position: relative;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 30% 50%, rgba(59, 130, 246, 0.3), transparent 50%);
+}
